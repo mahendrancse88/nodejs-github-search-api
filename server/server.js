@@ -1,3 +1,5 @@
+const serverless = require('serverless-http');
+
 var express = require('express');
 var bodyParser = require('body-parser');
 var morgan = require('morgan');
